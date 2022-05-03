@@ -9,10 +9,10 @@ ${reset}
   /* Define Colors */
   --red: #E05433;
   --white: #FFFFFF;
-  --grey: #ced4da;
-  --lightGrey: #f8f9fa;
-  --grey-500: #6c757d;
-  --darkGrey: #495057;
+  --grey-100: #f8f9fa;
+  --grey-200: #ced4da;
+  --grey-300: #6c757d;
+  --grey-400: #495057;
   --black: #212529;
   --lightBlack: #343a40;
   --green: #28a745;
