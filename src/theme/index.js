@@ -1,6 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
-import './libs';
 
 const GlobalStyle = createGlobalStyle`
 ${reset}
@@ -8,6 +7,7 @@ ${reset}
 :root {
   /* Define Colors */
   --red: #E05433;
+  --darkRed: #ce401f;
   --white: #FFFFFF;
   --grey-100: #f8f9fa;
   --grey-200: #ced4da;

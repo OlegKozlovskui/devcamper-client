@@ -1,8 +1,9 @@
-import './App.css';
+import GlobalStyle from './theme';
 
 function App() {
   return (
-    <div className="App">
+    <div >
+      <GlobalStyle />
     </div>
   );
 }
