@@ -6,8 +6,9 @@ ${reset}
 
 :root {
   /* Define Colors */
-  --red: #E05433;
-  --darkRed: #ce401f;
+  --red-100: #f1b1a2;
+  --red-500: #E05433;
+  --red-600: #ce401f;
   --white: #FFFFFF;
   --grey-100: #f8f9fa;
   --grey-200: #ced4da;
@@ -16,14 +17,14 @@ ${reset}
   --black: #212529;
   --lightBlack: #343a40;
   --green: #28a745;
-
-
+  
+  
   /* Used on big surface background colors */
   --bg-primary: var(--red);
 
 
   /* Define Colors intentions */
-  --primary: var(--red);
+  --primary: var(--red-500);
   --secondary: var(--black);
   --light: var(--white);
   --textColor: var(--black);

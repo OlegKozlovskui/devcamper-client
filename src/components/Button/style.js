@@ -16,7 +16,7 @@ const StyledButton = styled.button`
    `
   }
   &:hover {
-    background-color: var(--darkRed);
+    background-color: var(--red-600);
     transition: background-color 0.3s ease-in-out;
   }
 
