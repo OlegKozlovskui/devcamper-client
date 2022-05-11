@@ -20,13 +20,13 @@ ${reset}
   
   
   /* Used on big surface background colors */
-  --bg-primary: var(--red);
+  --bg-primary: var(--red-500);
 
 
   /* Define Colors intentions */
   --primary: var(--red-500);
   --secondary: var(--black);
-  --light: var(--white);
+--light: var(--white);
   --textColor: var(--black);
 
 
