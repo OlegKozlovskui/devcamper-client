@@ -2,7 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
-${reset}
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+ 
+  ${reset}
 
 :root {
   /* Define Colors */
@@ -26,13 +28,14 @@ ${reset}
   /* Define Colors intentions */
   --primary: var(--red-500);
   --secondary: var(--black);
---light: var(--white);
+  --light: var(--white);
   --textColor: var(--black);
 
 
   /* Type */
-  --bodyFont: 'BlinkMacSystemFont', sans-serif;
-  --h1: 40px;
+  --bodyFont: 'Open Sans', sans-serif;
+  --h1: 56px;
+  --h2: 40px;
   --h4: 24px;
   --h5: 20px;
   --text: 16px;
@@ -61,17 +64,14 @@ ${reset}
 
   h1 {
     font-size: var(--h1);
-    font-weight: 500;
   }
 
   h4 {
     font-size: var(--h4);
-    font-weight: 500;
   }
 
   h5 {
     font-size: var(--h5);
-    font-weight: 500;
   }
 
   svg {
