@@ -7,6 +7,8 @@ const StyledSection = styled.section`
   width: 100%;
   height: calc(100vh - 56px);
   position: relative;
+  display: flex;
+  align-items: center;
   
   &::before {
     content: '';
@@ -26,8 +28,6 @@ const Container = styled.div`
   margin: 0 auto;
   max-width: 1140px;
   width: 100%;
-  padding: 20% 15px 0;
- 
 `;
 
 const Title = styled.h1`

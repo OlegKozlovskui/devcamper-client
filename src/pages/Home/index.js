@@ -5,6 +5,9 @@ import SearchForm from './components/SearchForm';
 const { StyledSection, Container, Title, Description } = styles;
 
 const Home = () => {
+  const handleSearch = (searchData) => {
+    console.log(searchData);
+  };
   return (
     <StyledSection>
       <Container>
@@ -14,7 +17,7 @@ const Home = () => {
         <Description>
           Find, rate and read reviews on coding bootcamps
         </Description>
-        <SearchForm />
+        <SearchForm onSearch={handleSearch}/>
       </Container>
     </StyledSection>
   );
