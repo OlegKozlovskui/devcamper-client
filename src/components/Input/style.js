@@ -7,7 +7,7 @@ const FormControl = styled.div`
 
 const StyledInput = styled.input`
   display: block;
-  padding: 6px 12px;
+  padding: 9px 12px;
   color: var(--grey-400);
   background: var(--light);
   border: 1px solid ;
